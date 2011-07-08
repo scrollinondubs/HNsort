@@ -13,7 +13,7 @@ $(function() {
 </head>
   
 <body>
-<cfhttp url="http://www.dapper.net/RunDapp?dappName=HNhomepage&v=1&applyToUrl=http%3A%2F%2Fnews.ycombinator.com%2F" method="get">
+<cfhttp url="http://open.dapper.net/RunDapp?dappName=HNhomepage&v=1&applyToUrl=http%3A%2F%2Fnews.ycombinator.com%2F" method="get">
 
 <cfscript>
     xmlfile	= xmlparse(cfhttp.filecontent); 
